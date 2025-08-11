@@ -1,12 +1,33 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>knowledgehub</title>
-  </head>
-  
-  <body>
-    
-    <h1>welcome to knowledgehub</h1>
-    <p>this is a knowledge sharing platform</p>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KnowledgeHub</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="logo">Knowledge<span>Hub</span></div>
+        <nav>
+            <a href="{% url 'signin' %}">Login</a>
+            <a href="{% url 'signup' %}">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to KnowledgeHub</h1>
+        <p>Share your wisdom. Explore new ideas. Connect with the world.</p>
+        <div class="cta-buttons">
+            <a href="{% url 'signup' %}" class="btn">Get Started</a>
+            <a href="{% url 'signin' %}" class="btn-outline">Login</a>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 KnowledgeHub. All rights reserved.
+    </footer>
+</body>
 </html>
+

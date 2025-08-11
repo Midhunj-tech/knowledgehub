@@ -1,0 +1,99 @@
+/* Black universe-like theme */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #000000, #0a0a0a, #050505);
+    color: white;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(20, 20, 20, 0.9);
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo span {
+    color: #1DA1F2; /* Twitter blue accent */
+}
+
+nav a {
+    margin-left: 20px;
+    color: #bbb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1DA1F2;
+}
+
+/* Main section */
+main {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+main h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 25px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #0d8bd9;
+}
+
+.btn-outline {
+    padding: 10px 25px;
+    border: 2px solid #1DA1F2;
+    color: #1DA1F2;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn-outline:hover {
+    background-color: #1DA1F2;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(20, 20, 20, 0.9);
+    color: #777;
+    font-size: 0.9em;
+}
+
